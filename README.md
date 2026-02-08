@@ -6,3 +6,5 @@ I built WebInspectra, a developer-focused security inspection framework designed
 - Automated attack simulation against running endpoints
 - Detect webapp threats and logic flaws
 - Modular security check system
+- Vulnerable and secure demo applications
+- IDE integration ready architecture
