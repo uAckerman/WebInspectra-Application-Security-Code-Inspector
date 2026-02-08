@@ -3,7 +3,7 @@ I built WebInspectra, a developer-focused security inspection framework designed
 
 ***
 <div align="center">
-  <img src="doc/screenshots/project_flow.png" alt="project" width="980"> 
+  <img src="doc/screenshots/project_flow1.png" alt="project" width="900"> 
 </div>
 
 ***
