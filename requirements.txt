@@ -1,1 +1,3 @@
 # Dependencies to be installed
+flask 
+requests
