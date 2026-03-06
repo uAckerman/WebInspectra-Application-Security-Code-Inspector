@@ -41,14 +41,10 @@ In this step, i create the main engine that runs security checks on a website. I
 
 ### What the Code Does
 
-> __init__(base_url)
-
-This function saves the target website URL and creates an empty list to store security checks.
-
-> register_check(check)  
-Adds a security check (like SQL Injection) to the list.
-
-> run()  
-Runs all registered checks on the target URL and collects their results.
+| Method | Description |
+|------|-------------|
+| `__init__(base_url)` | Saves the target website URL and creates an empty list to store security checks. |
+| `register_check(check)` | Adds a security check (like SQL Injection) to the list. |
+| `run()` | Runs all registered checks on the target URL and collects their results. |
 
  
