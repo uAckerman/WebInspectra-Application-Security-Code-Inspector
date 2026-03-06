@@ -34,4 +34,9 @@ The application uses **Flask** as the backend framework and **SQLite** as the da
 <img src="doc/screenshots/p2.png" alt="project" width="700"> 
 
 ***
+
+## Phase 2: Build the Inspection Engine Core ( [controller.py](https://github.com/uAckerman/Codexaegis-Application-Security-Code-Inspector/blob/main/controller.py) )
+
+In this step, i create the main engine that runs security checks on a website. It manages all security checks on a website.
+
  
