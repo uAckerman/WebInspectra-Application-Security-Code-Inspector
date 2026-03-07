@@ -51,3 +51,4 @@ In this step, i create the main engine that runs security checks on a website. I
 
 The **SQLInjectionCheck** module is designed to test whether a web application login functionality is vulnerable to SQL Injection.   
 - In the first step, the module attempts the attack by sending a crafted payload (admin' --) to the login endpoint using an HTTP POST request. This payload is commonly used to manipulate SQL queries and attempt to bypass authentication by commenting out the rest of the query.
+- In the second step, the module tests the response from the server. It checks whether the response contains the message “Login Successful.” If this message appears, it indicates that the SQL Injection attempt may have successfully bypassed the login mechanism, marking the system as VULNERABLE. If the login is not bypassed, the result is marked as SAFE. If any exception occurs during the request, the module returns an ERROR status along with the error details.
