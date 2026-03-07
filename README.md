@@ -47,4 +47,7 @@ In this step, i create the main engine that runs security checks on a website. I
 | `register_check(check)` | Adds a security check (like SQL Injection) to the list |
 | `run()` | Runs all registered checks on the target URL and collects their results |
 
- 
+ ## Phase 3: Create the SQL Injection Detection Logic ( [sql_injection.py](https://github.com/uAckerman/Codexaegis-Application-Security-Code-Inspector/blob/main/sql_injection.py) )
+
+The **SQLInjectionCheck** module is designed to test whether a web application login functionality is vulnerable to SQL Injection.   
+- In the first step, the module attempts the attack by sending a crafted payload (admin' --) to the login endpoint using an HTTP POST request. This payload is commonly used to manipulate SQL queries and attempt to bypass authentication by commenting out the rest of the query.
