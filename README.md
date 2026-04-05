@@ -106,3 +106,4 @@ If the credentials are correct, the application should return;
 
 ***
 
+**This confirms that the login system is functioning correctly before performing the security inspection.**
