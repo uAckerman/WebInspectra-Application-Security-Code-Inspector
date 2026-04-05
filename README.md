@@ -61,3 +61,7 @@ The **SQLInjectionCheck** module is designed to test whether a web application l
 ## Phase 4: Build the Main Scanner Runner ( [scanner.py](https://github.com/uAckerman/Codexaegis-Application-Security-Code-Inspector/blob/main/scanner.py) )
 
 The Main Scanner Runner is the entry point of the security inspection engine. Its role is to start the scanning process, load the security modules, run them against the target application, and display the results.
+
+# Testing and Verification  
+  
+This section demonstrates how the inspection engine is tested against the vulnerable demo application to verify that the SQL Injection detection module functions correctly.
