@@ -57,3 +57,7 @@ The **SQLInjectionCheck** module is designed to test whether a web application l
   ```  
   to the login endpoint using an HTTP POST request. This payload is commonly used to manipulate SQL queries and attempt to bypass authentication    by commenting out the rest of the query.  
 - In the second step, the module tests the response from the server. It checks whether the response contains the message “**Login Successful**” If this message appears, it indicates that the SQL Injection attempt may have successfully bypassed the login mechanism, marking the system as **VULNERABLE**. If the login is not bypassed, the result is marked as **SAFE**. If any exception occurs during the request, the module returns an **ERROR** status along with the error details.
+
+## Phase 4: Build the Main Scanner Runner ( [scanner.py](https://github.com/uAckerman/Codexaegis-Application-Security-Code-Inspector/blob/main/scanner.py) )
+
+The Main Scanner Runner is the entry point of the security inspection engine. Its role is to start the scanning process, load the security modules, run them against the target application, and display the results.
