@@ -125,3 +125,11 @@ The scanner will execute the registered security modules and attempt to detect v
 
 ***
 
+## Step 4: Analyze the Scanner Output  
+
+After the scan is complete, the scanner will display the results in the terminal.
+
+Example output:
+```
+{'check': 'SQL Injection Check', 'status': 'VULNERABLE'}
+```
