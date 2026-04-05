@@ -79,3 +79,30 @@ python .\app.py
 </div>
 
 ***
+
+## Step 2: Verify the Login Endpoint  
+Open a browser and navigate to:
+```
+http://127.0.0.1:5000/login
+```
+
+Test the login functionality using the default credentials stored in the database:  
+```
+Username: admin
+Password: admin123
+```
+
+If the credentials are correct, the application should return;
+
+***
+<div align="center">
+  <img src="doc/screenshots/p4.png" alt="project" width="900"> 
+</div>
+
+***
+<div align="center">
+  <img src="doc/screenshots/p6.png" alt="project" width="900"> 
+</div>
+
+***
+
