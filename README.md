@@ -138,7 +138,7 @@ This output indicates that the SQL Injection detection module successfully ident
 
 # Future Improvements
 
-Add XSS detection module and other attack modules related to web
+Add XSS detection module and other attack modules related to web  
 Generate structured vulnerability reports
 
 # Conclusion
