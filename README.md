@@ -133,3 +133,14 @@ Example output:
 ```
 {'check': 'SQL Injection Check', 'status': 'VULNERABLE'}
 ```
+***
+This output indicates that the SQL Injection detection module successfully identified a vulnerability in the login endpoint.
+
+# Future Improvements
+
+Add XSS detection module and other attack modules related to web
+Generate structured vulnerability reports
+
+# Conclusion
+
+Overall, this project serves as a practical demonstration of how automated security inspection can assist developers and security engineers in identifying potential vulnerabilities during the development and testing phases of a web application.
