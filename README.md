@@ -107,3 +107,21 @@ If the credentials are correct, the application should return;
 ***
 
 **This confirms that the login system is functioning correctly before performing the security inspection.**
+
+## Step 3: Execute the Security Scanner
+
+Next, open a new terminal and run the inspection engine from the project root directory.
+
+```
+python .\scanner.py
+```
+
+The scanner will execute the registered security modules and attempt to detect vulnerabilities in the application.
+
+***
+<div align="center">
+  <img src="doc/screenshots/p5.png" alt="project" width="900"> 
+</div>
+
+***
+
