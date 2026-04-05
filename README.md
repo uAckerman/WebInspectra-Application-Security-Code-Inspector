@@ -65,3 +65,10 @@ The Main Scanner Runner is the entry point of the security inspection engine. It
 # Testing and Verification  
   
 This section demonstrates how the inspection engine is tested against the vulnerable demo application to verify that the SQL Injection detection module functions correctly.
+
+## Step 1: Start the Vulnerable Web Application  
+First, the demo application must be started so that the inspection engine has a target to analyze.
+
+```
+python .\app.py
+```
