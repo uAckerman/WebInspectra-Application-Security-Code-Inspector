@@ -72,3 +72,10 @@ First, the demo application must be started so that the inspection engine has a 
 ```
 python .\app.py
 ```
+
+***
+<div align="center">
+  <img src="doc/screenshots/p3.png" alt="project" width="900"> 
+</div>
+
+***
